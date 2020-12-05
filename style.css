@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Nixie+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100;200;300;400;500;700&display=swap");
+
+:root {
+  --dark-blue: #07689f;
+  --light-blue: #a2d5f2;
+  --white: #fafafa;
+  --red: #ff7e67;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--dark-blue);
+  font-family: "Libre Franklin", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  padding: 20px;
+  color: var(--white);
+}
+
+.logo h1 {
+  font-family: "Nixie One", cursive;
+}
+
+.container {
+  background-color: var(--white);
+  width: 40%;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+form {
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.form-container input {
+  width: 80%;
+  padding: 0;
+  margin: 0;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  background: none;
+}
+
+.form-container button {
+  width: 20%;
+  padding: 7px;
+  margin: 0;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  font-size: 20px;
+  color: var(--white);
+  background: var(--dark-blue);
+}
+
+.form-container button:hover {
+  background: var(--light-blue);
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  padding: 5px 0;
+  font-size: 20px;
+  color: #1b1e20;
+}
